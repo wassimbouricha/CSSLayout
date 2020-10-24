@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.mainpage{
+       width: 70%;
+       margin: 0% 15%;
+}
+.topnav{
+       display: flex;
+       justify-content: space-between ;
+       position: fixed;
+       top: 0px;
+       width: 70%;
+       background-color: white;
+}
+.topnav h1{
+color: #00b39b;
+}
+#Group {
+       color: #747474;
+}
+.Links1{
+display: flex;
+width: 30%;
+justify-content: space-between;
+align-items: center;
+}
+
+.Links1 a{
+       font-style: normal;
+       color: #747474;
+       text-decoration: none;
+}
+.Links1 a:hover {
+       color:#00b39b ;
+}
+h1 {
+       color: #00b39b ;
+       font: 34px;
+       margin: 34px 0px;
+       font-family: 'Roboto', sans-serif;;
+       font-weight: lighter;
+       text-align: center;
+}
+.global{
+       display: flex;
+       justify-content: space-between;
+}
+#top{
+       margin-top: 100px;
+}
+.paragraph1{
+       width: 48%;
+       line-height: 1.6;
+       color: #747474;
+       font-size: 16px;
+}
+.paragraph2{
+       width: 48%;
+       line-height: 1.6;
+       color: #747474;
+       font-size: 16px;
+}
+.next{
+       display: flex;
+       justify-content: space-between;
+}
+.patients{
+       background-color: #00b39b ;
+       width: 48%;
+       height: 400px;
+       border-radius: 25px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: start;
+       overflow: hidden;
+}
+.patients h4{
+       color: #FFFFFFB3;
+       font-size: 16px;
+       padding-left: 50px;
+}
+.patients p{
+       font-size: 20px;
+       color: #e5e2e2;
+       letter-spacing: .3px;
+       font: 16px;
+       padding-left: 50px;
+       padding-right: 50px;
+}
+.patients img{
+       width: 100%;
+       margin-left: 45%;
+       margin-top: -7%;
+}
+.doctors{
+       background-color: #3D83DF;
+       width: 48%;
+       height: 400px;
+       border-radius: 25px;
+       overflow: hidden;
+       
+}
+.doctors h4{
+       color: #FFFFFFB3;
+       font-size: 16px;
+       padding-left: 50px
+       }
+.doctors p{
+       font-size: 20px;
+       color: #e5e2e2;
+       letter-spacing: .3px;
+       font: 16px;
+       padding-left: 50px;
+       padding-right: 50px;
+       padding-top: 15px;
+}
+.doctors img{
+       width: 76%;
+       margin-left: 48%;
+       margin-top: 8%;
+}
+.patients select{
+       margin-left: -5px;
+       padding: 7px;
+       border-radius: 5px;
+}
+.brands{
+       display: flex;
+       justify-content: space-between;
+}
+.one{
+color:#00b39b;
+font-size: 25px;
+width: 30%;
+margin-top: -2%;
+
+}
+.two{
+width: 65%;
+display: flex;
+justify-content: space-between;
+font-size: 17px;
+flex-wrap: wrap;
+font-weight: lighter;
+margin-top: 10px;
+}
+.two a{
+       text-decoration: none;
+       color:#747474;
+}
+.two a:hover{
+       color:#00b39b;
+}
+.midpage{
+       width: 100%;
+}
+.color{
+       background-color:#E5F5F8;
+       width: 100%;
+       display: flex;
+}
+.left{
+       width: 50%;
+       margin-left: 200px; 
+}
+.left h1{
+       width: 50%;
+}
+.left p{
+       width: 60%;
+       line-height: 20px;
+       padding-left: 15px;
+       color: #747474;
+}
+.color img{
+       height: 50%;
+       margin-left: -20%;
+}
+.right{
+       width: 50%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       height: 20%;
+       align-items: center;
+       justify-items: center;
+       margin-top: 20px;
+}
+.box1{
+       background-color: white;
+       width: 200px;
+       height: 200px;
+       text-align: center;
+       margin-top: 30px;
+       border-radius: 5px;
+}
+.box1 p{
+       font-size: 0.75em;
+}
+.box2{
+       background-color: white;  
+       width: 200px;
+       height: 200px;
+       text-align: center; 
+       margin-right: 20%;
+       border-radius: 5px;  
+        
+}
+.box2 p{
+       font-size: 0.75em;
+}
+.box3{
+       background-color: white;
+       width: 200px;
+       height: 200px;
+       text-align: center;
+       margin-top: 75px;
+       border-radius: 5px;
+}
+.box3 p{
+       font-size: 0.75em;
+}
+.box4{
+       background-color: white;
+       width: 200px;
+       height: 200px;
+       text-align: center;
+       margin-right: 20%;
+       border-radius: 5px;
+}
+.box4 p{
+       font-size: 0.75em;
+}
+
+
